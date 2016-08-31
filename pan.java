@@ -13,7 +13,7 @@ public class pangram {
 		
 		for(int i=0;i<26;i++)
 		{
-			System.out.println(i);
+			
 			count=0;
 			c='A';
 			for(int j=0;j<str.length();j++)
@@ -22,7 +22,7 @@ public class pangram {
 				{
 				count++;
 				ana++;
-				System.out.println("count"+count+"ana"+ana);
+				
 				}
 			
 			}
@@ -36,7 +36,7 @@ public class pangram {
 		if(ana==26)
 		{
 			System.out.println("String is a Pangram");
-			System.out.println("res"+ana);
+		
 		}
 
 	}
